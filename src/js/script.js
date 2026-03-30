@@ -105,5 +105,5 @@ if(user_login == true){
 const usuarioLogado=20;
 const tempoToken=10;
 
-const transacao =(usuarioLogado ===20 && tempoToken >=10)
+const transacao =usuarioLogado ===20 && tempoToken >=10
 console.log("Transação Autorizada",transacao)
